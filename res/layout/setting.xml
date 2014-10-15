@@ -1,0 +1,129 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background = "@drawable/background"  >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/layout_margin"
+        android:layout_marginLeft="@dimen/layout_margin"
+        android:layout_marginRight="@dimen/layout_margin"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:orientation="vertical" >
+        
+    	<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Setting:"
+			android:gravity="left"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_alignParentLeft="true" />
+    	
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/layout_space_little" />
+
+        <TextView
+            android:id="@+id/txt_changeNickName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change NickName:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/s_edt_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="@string/layout_max_nickname"
+            android:digits="1234567890qwertyuiopasdfghjklzxcvbnm QWERTYUIOPASDFGHJKLZXCVBNM"
+            android:singleLine="true" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/txt_s_error_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The NickName Must not be empty"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/red" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/layout_space_little" />
+
+        <TextView
+            android:id="@+id/txt_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Password:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/s_edt_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="1234567890qwertyuiopasdfghjklzxcvbnm"
+            android:inputType="textPassword"
+            android:maxLength="@string/layout_max_words"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/txt_s_error_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/layout_error_password"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/red" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/layout_space_little" />
+
+        <TextView
+            android:id="@+id/txt_changeFavourTeam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Favourite Team"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/sp_teamlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/layout_space_little" />
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/layout_space_little" />
+    	<LinearLayout 
+    	    android:layout_height="wrap_content"
+        	android:layout_width="match_parent" 
+        	android:id="@+id/linearLayout1"
+        	android:paddingTop="25dp">           
+        	<TextView 
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content" 
+            	android:text=" " 
+            	android:id="@+id/txt_favour"
+            	android:layout_weight="1" /> 
+        	<Button
+            	android:id="@+id/btn_back"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="@string/layout_back" />
+    	</LinearLayout>
+    </LinearLayout>
+    
+</FrameLayout>

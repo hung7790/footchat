@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_roomList"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@drawable/background" >
+    
+    
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="15sp" >
+        </RelativeLayout>
+		
+        <!-- Starting for the real Content -->  
+        
+        
+        <TabHost
+        android:id="@+id/tabhost"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" 
+                    android:orientation="vertical" >
+                    
+				 <ListView 
+				        android:id="@+id/ratingListView"
+				        android:layout_width="fill_parent"
+				        android:layout_height="fill_parent"    >
+				</ListView>
+                    
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" 
+                    android:orientation="vertical" >
+                    
+				 <ListView 
+				        android:id="@+id/ratingListView2"
+				        android:layout_width="fill_parent"
+				        android:layout_height="fill_parent"    >
+				</ListView>
+                </LinearLayout>
+                
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+        
+        
+        
+        
+		<!-- End of real content -->
+    </LinearLayout>
+
+</FrameLayout>

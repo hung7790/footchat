@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--  
+
+    
+    -->
+     <string name="post_url">http://10.0.2.2/postRequest.php</string>
+    <string name="xml_url">http://10.0.2.2/xml/chatrommInfor.xml</string>
+    <!-- http://10.0.2.2 -->
+    <string name="post_requireType">requireType</string>
+    <string name="post_rt_accountChecking">rt_accountChecking</string>
+    <string name="post_rt_registration">rt_registration</string>
+    <string name="post_rt_chatroomInfor">rt_chatroomInfor</string>
+    <string name="post_rt_view_Msg">rt_view_Msg</string>
+    <string name="post_rt_post_Msg">rt_post_Msg</string>
+    <string name="post_rt_chatroomList">rt_chatroomList</string>
+    <string name="post_rt_accountInfor">rt_accountInfor</string>
+    <string name="post_rt_modifyAccount">rt_modifyAccount</string>
+    <string name="post_rt_viewRating">rt_viewRating</string>
+    <string name="post_rt_postRating">rt_postRating</string>
+    <string name="post_sql_Username">sql_Username</string>
+    <string name="post_sql_Password">sql_Password</string>
+    <string name="post_sql_Nickname">sql_Nickname</string>
+    <string name="post_sql_ChatroomID">sql_ChatroomID</string>
+    <string name="post_sql_Num">sql_Num</string>
+    <string name="post_sql_Content">sql_Content</string>
+    <string name="post_sql_favor_team_id">sql_favor_team_id</string>
+    <string name="post_sql_PlayerListID">sql_PlayerListID</string>
+    <string name="post_sql_score">sql_score</string>
+    <string name="post_return_OK">return_OK</string>
+    <string name="post_return_wrongAccount">return_wrongAccount</string>
+    <string name="post_return_exist">return_exist</string>
+    <string name="post_return_error_createAccount">return_error_createAccount</string>
+    <string name="xml_tag_chatrommInfor">chatrommInfor</string>
+    <string name="xml_tag_chatroom">chatroom</string>
+    <string name="xml_tag_chatroomId">chatroomId</string>
+    <string name="xml_tag_chatroomPost">chatroomPost</string>
+    <string name="xml_tag_match">match</string>
+    <string name="xml_tag_chatroomDesc">chatroomDesc</string>
+    <string name="xml_tag_homeTeam">homeTeam</string>
+    <string name="xml_tag_awayTeam">awayTeam</string>
+    <string name="xml_tag_homeTeamScore">homeTeamScore</string>
+    <string name="xml_tag_awayTeamScore">awayTeamScore</string>
+    <string name="xml_tag_time">time</string>
+    <string name="xml_tag_status">status</string>
+    <string name="xml_tag_message">message</string>
+    <string name="xml_tag_message_nickname">nickname</string>
+    <string name="xml_tag_message_content">content</string>
+    <string name="xml_tag_message_time">time</string>
+    <string name="xml_tag_message_event">event</string>
+    <string name="xml_tag_message_guest">guest</string>
+    <string name="xml_value_status_future">future</string>
+    <string name="xml_value_status_live">live</string>
+    <string name="xml_value_status_nolive">nolive</string>
+    <string name="xml_value_yes">yes</string>
+    <string name="xml_value_no">no</string>
+
+</resources>

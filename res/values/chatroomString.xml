@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+        <string name="chatroom_vs">"  VS  "</string>
+        <string name="chatroom_Score">" : "</string>
+        <string name="chatroom_name_time">"  -  "</string>
+        <string name="chatroom_loading">Loading...</string>
+        <string name="chatroom_submit">Submit</string>
+        <string name="chatroom_home">"(Home)\n"</string>
+        <string name="chatroom_away">"(Away)\n"</string>
+        
+        <string name="chatroom_live_match">"Live"</string>
+        <string name="chatroom_future_match">"The match will start at "</string>
+        <string name="chatroom_nolive_match">"The match has finished "</string>
+        
+        <string name="chatroom_tab_message">Message</string>
+        <string name="chatroom_tab_event">Event</string>
+        <string name="chatroom_tab_guest">Guest</string>
+        
+        <string name="msg_user">msg_user</string>
+        <string name="msg_event">msg_event</string>
+        <string name="msg_guest">msg_guest</string>
+        
+        <string name="chatroom_menu_score">Player Score</string>
+        <string name="chatroom_menu_back">back</string>
+        
+        <string name="chatroom_max_message">15</string>
+</resources>

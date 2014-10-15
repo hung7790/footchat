@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">footchat</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="layout_username">Username</string>
+    <string name="layout_password">Password</string>
+    <string name="layout_nickname">Nickname</string>
+    <string name="layout_error_username">The username must be 8 letters or digitals</string>
+    <string name="layout_error_password">The password must be 8 letters or digitals</string>
+    <string name="layout_error_nickname">The nickname must can not be empty</string>
+    <string name="layout_login">Log In</string>
+    <string name="layout_login_link">Do not have an account? Click here to register</string>
+    <string name="layout_register">Register</string>
+    <string name="layout_back">Back</string>
+    
+    <string name="layout_max_words">8</string>
+    <string name="layout_max_nickname">20</string>
+    
+</resources>
